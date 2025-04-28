@@ -1,0 +1,245 @@
+body{
+	background-image:url("../imagenes/fondo 4.jpg");
+	
+	font-family:"Garamond","Italized text","Courier new";
+	color:#17202A;
+	font-size:30px;
+	
+}
+hr {	
+	border:3px solid #E6C9DD;
+	width:80%;
+	border-radius:5px;
+}
+p{
+	text-align:center;
+	font-size:30;
+	color:#000000;
+	line-height:1.5;
+	letter-spacing:2px;
+	color:#4F2920;
+}
+table,tr,td{
+	border:1px solid #FE7070;
+	border-spacing:0px;
+	background-color:#FCF3CF;
+	font-size:15px;
+	text-align:center;
+	color:#4F2920;
+}
+/*clases*/
+.pie{
+	text-align:center;
+	font-size:11px;
+	color:#982E39;
+	font-weight:bold;
+}
+.encabezado{
+	text-align:center;
+	font-size:50px;
+	font-weight:bold;
+	font:Italized text;
+	color:#982E39;
+}
+/*Divs*/
+div#top{
+	width:100%;
+	height:75px;
+	background-image:radial-gradient(#F3DDD8,#F9DAD8);
+	font-family:fuente 1;
+}
+div#piedepagina{
+	width:100%;
+	height:40px;
+	background-image:radial-gradient(#F0E9D6,#F9DAD8);
+}
+/*carrusel de imagenes*/
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltargeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows > i:hover{
+	cursor:poiter;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller > a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows > a > i{
+	color:white;
+}
+/*cajas para productos*/
+.caja{
+	height:300px;
+	width:250px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	margin:5px;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px red;
+	transform:scale(1.3);
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#4F2920;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+}
+.cajas{
+	width:600px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	margin:5px;
+	text-align:center;
+	display:inline-block;
+	font-size:25px;
+}
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:25px;
+	display:flex;
+	transition: flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+.navegacion-item:hover{
+	flex-grow:10	;
+}
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+	font-size:15px;
+	color:white; 
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#F5BAAE
+}
+.navegacion-item:nth-child(2){
+	background:#F0AFA2 
+}
+.navegacion-item:nth-child(3){
+	background:#EFA696 
+}
+.navegacion-item:nth-child(4){
+	background:#F69F8D
+}
+
+.cont{
+	width:300px;
+	background:#F5BAAE;
+	border:1px solid #eee;
+	margin:5px;
+	font-family:Italized text;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	color:black;
+	align-items:center;
+	font-size:30px;
+}
+
+.conts{
+	width:1200px;
+	height:320px;
+	background:#F5BAAE;
+	border:1px solid #eee;
+	margin:5px;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+	font-size:30px;
+}
+
+@font-face{
+	font-family:fuente-Eye Quirky Demo;
+	scr:url(../fuentes/Eye Quirky Demo.ttf);
+}
+
+@font-face{
+	font-family:fuente-Roughly Begather Demo;
+	scr:url(../fuentes/Roughly Begather Demo.ttf);
+}
+
+@font-face{
+	font-family:fuente-vendya;
+	scr:url(../fuentes/vendya.ttf);
+}
+
+.caja-contacto{
+	height:500px;
+	width:1400px;
+	background:#FFFFFF;
+	border:1px solid #FFFFFF;
+	margin:5px;
+	text-align:justify;
+	display:inline-block;
+}
+.cajads{
+	width:1200px;
+	height:120px;
+	background:#F5BAAE;
+	border:1px solid #eee;
+	margin:5px;
+	display:flex;
+	align-items:center;
+	text-align:center;
+	justify-content:center;
+	font-size:30px;
+}
